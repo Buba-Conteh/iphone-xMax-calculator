@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    max-width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.card-body{
+    padding: 10px;
+}
+ input{
+    width: 100%;
+    line-height: 1.5;
+    min-height: 120px;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: black;
+    color: white;
+
+ }
+ .flex-buttons{
+    display: flex;
+ }
+
+ .card-body .flex-buttons:first-child > button{
+    background-color: rgb(181, 180, 180);
+    color: black;
+}
+
+.card-body .flex-buttons:first-child > button:last-child{
+    background-color: white;
+    color:rgb(222, 156, 34) ;
+}
+/* .divide{
+    background-color: white;
+    color:rgb(222, 156, 34) ;
+} */
+.flex-buttons button:last-child{
+    background-color: rgb(222, 156, 34);
+    color: white;
+}
+ button{
+    padding: 20px;
+    width: 100%;
+    flex: 1;
+    border-radius: 50%;
+    margin: 5px;
+    border: 0;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-size: 1.8rem;
+
+ }
+ .zero{
+    flex: 4;
+    border-radius: 50px;
+ }
